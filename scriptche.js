@@ -651,7 +651,7 @@ var palavras = ["afude",
 "cacho",
 "canga",
 "capao",
-"carao";                
+"carao",                
 "capaz",
 "cauna",
 "chapa",                
