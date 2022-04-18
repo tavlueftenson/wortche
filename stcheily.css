@@ -1,0 +1,42 @@
+table {
+  border: 2px solid rgb(53, 51, 153);
+  width: 650px;
+  margin: 0 auto;
+}
+
+td {
+  font-family: Arial;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-color: transparent;
+  border-color: blue;
+}
+
+div {
+  font-family: Arial;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-color: transparent;
+  border-color: blue;
+  
+}
+
+.inputs {
+  font-family: Arial;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-color: transparent;
+  border-color: blue;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: Arial;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
