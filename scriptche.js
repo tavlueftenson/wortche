@@ -13,21 +13,7 @@ var letra15Display;
 
 window.addEventListener('load', (event) => {
 
-  // LETRAS DE CADA PALAVRA
-/*
-  palavra1 = document.getElementById('palavra1');
-  letrasPalavra1 = palavra1.getElementsByTagName("td");
-  letra11Display = letrasPalavra1[0];
-  letra12Display = letrasPalavra1[1];
-  letra13Display = letrasPalavra1[2];
-  letra14Display = letrasPalavra1[3];
-  letra15Display = letrasPalavra1[4];
-
-
-  limpaTodasAsPalavras();
-  */
   const palavraTemp = sorteiaPalavra().toUpperCase();
-  console.log(palavraTemp);
   var elts = document.getElementsByClassName('inputs');
   document.getElementById('l11').focus(); 
   Array.from(elts).forEach(function(elt){
@@ -652,33 +638,41 @@ function checaLetras(l1,l2,l3,l4,l5, palavraSorteada) {
 
 // LISTA DE PALAVRAS
 var palavras = ["afude",
+"baita",                
 "banda",
 "bruxa",
 "bruxo",
 "bucha",
+"buena",                
 "bueno",
 "bugio",
+"bugre",                
 "butia",
 "cacho",
 "canga",
 "capao",
 "capaz",
 "cauna",
-"chapa",
+"chapa",                
 "china",
 "chiru",
 "cusco",
 "facho",
 "faixa",
+"flete",                
 "funda",
 "guria",
 "guapa",
 "guapo",
+"hasta",
+"indio",                
 "jirau",
 "labia",
 "legua",
 "lomba",
 "lonca",
+"mamao",  
+"maula",                
 "merca",
 "pampa",
 "pelea",
@@ -689,20 +683,27 @@ var palavras = ["afude",
 "relho",
 "rengo",
 "sanga",
+"selin",
+"sorro",                
 "super",
 "taipa",
+"taita",                
 "talho",
 "taura",
 "tento",
+"trago",                
 "tripa",
 "trova",
 "truco",
+"tunda",                
 "varar",
 "varou",
 "varei",
 "vazio",
 "xucro",
-"zaino"];
+"zaino",
+"zarro",
+"zunir"];
 
 var palavras2 = ["aahed",
         "aalii",
