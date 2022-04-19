@@ -1,3 +1,7 @@
+* {
+  background-color: yellow;
+}
+
 table {
   width: 650px;
   margin: 0 auto;
@@ -6,7 +10,7 @@ table {
 td {
   font-family: Arial;
   font-weight: bold;
-  color: khaki;
+  color: red;
   text-align: center;
   background-color: transparent;
   border-color: blue;
@@ -26,7 +30,7 @@ div {
   font-family: Arial;
   font-size: 100px;
   font-weight: bold;
-  color: khaki;
+  color: red;
   text-align: center;
   background-color: transparent;
   border-color: blue;
@@ -37,5 +41,16 @@ h1 {
   font-family: Arial;
   text-align: center;
   font-size: 80px;
-  margin-bottom: 10px;
+  color: red;
+}
+
+#mensagemFim {
+  position: absolute;
+  background: green;
+  font-size: 40px;
+  top: 200px;
+  left: 300px;
+  right: 300px;
+  opacity: 95%;
+  border: 3px solid blue;
 }
