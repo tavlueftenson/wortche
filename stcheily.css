@@ -1,21 +1,7 @@
 * {
   background-color: yellow;
 }
-
-table {
-  width: 650px;
-  margin: 0 auto;
-}
-
-td {
-  font-family: Arial;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  background-color: transparent;
-  border-color: blue;
-}
-
+/*
 div {
   font-family: Arial;
   font-weight: bold;
@@ -25,8 +11,7 @@ div {
   border-color: blue;
   
 }
-
-
+*/
 .row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
