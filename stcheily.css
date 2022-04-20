@@ -25,7 +25,7 @@ div {
   border-color: blue;
   
 }
-
+/*
 .inputs {
   font-family: Arial;
   font-size: 100px;
@@ -37,7 +37,22 @@ div {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
-
+*/
+.inputs {
+   font-family: Arial;
+   width: 100%;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   line-height: 2rem;
+   font-weight: bold;
+   vertical-align: middle;
+   box-sizing: border-box;
+   color: red;
+   user-select: none;
+   border-color: blue;
+}
 h1 {
   font-family: Arial;
   text-align: center;
