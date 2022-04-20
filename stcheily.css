@@ -25,19 +25,7 @@ div {
   border-color: blue;
   
 }
-/*
-.inputs {
-  font-family: Arial;
-  font-size: 100px;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  background-color: transparent;
-  border-color: blue;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-}
-*/
+
 
 .row {
   display: grid;
@@ -57,6 +45,8 @@ div {
    color: red;
    user-select: none;
    border-color: blue;
+   display: inline-flex;
+   width: 62px;
 }
 h1 {
   font-family: Arial;
