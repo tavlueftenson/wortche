@@ -38,6 +38,13 @@ div {
   box-sizing: border-box;
 }
 */
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
 .inputs {
    font-family: Arial;
    width: 100%;
