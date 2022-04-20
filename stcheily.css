@@ -45,7 +45,7 @@ div {
    color: red;
    user-select: none;
    border-color: blue;
-   display: inline-flex;
+   display: block;
    width: 62px;
 }
 h1 {
