@@ -7,6 +7,15 @@ window.addEventListener('load', (event) => {
     elt.addEventListener("keyup", function(event) {
       var palavraInputada = "";
       var l1, l2, l3, l4, l5;
+      // delete letter key START
+      console.log(event.keyCode);
+      if (((event.keyCode === 8) || (event.keyCode === 37)) && (notFirstRow(elt.id))) {
+        elt.previousElementSibling.focus(); 
+        document.getElementById(elt.previousElementSibling.id).value = ''; 
+        console.log('deletar');
+      } 
+
+       // delete leter key END
       if (event.keyCode === 13 || elt.value.length == 1) {
             if (elt.nextElementSibling.id != 'escondido') {
               elt.nextElementSibling.focus()
@@ -645,6 +654,14 @@ function allReadOnly() {
   document.getElementById('l63').readOnly = true; 
   document.getElementById('l64').readOnly = true; 
   document.getElementById('l65').readOnly = true;
+}
+
+function notFirstRow(position) {
+  if ((position === 'l11') || (position === 'l21') || (position === 'l31') || (position === 'l41') || (position === 'l51') || (position === 'l61')) {
+    return false;
+  } else {
+    return true;
+  }
 }
 
 // LISTA DE PALAVRAS
