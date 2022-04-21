@@ -4,7 +4,8 @@
 
 h1 {
   font-family: Arial;
-  text-align: center;
+/*  text-align: center; */
+  justify-content: center;
   font-size: 80px;
   color: red;
   width: 500px;
@@ -13,6 +14,7 @@ h1 {
 }
 
 .row {
+  justify-content: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px;
