@@ -1,21 +1,25 @@
 * {
   background-color: yellow;
 }
-/*
-div {
+
+h1 {
   font-family: Arial;
-  font-weight: bold;
-  color: khaki;
   text-align: center;
-  background-color: transparent;
-  border-color: blue;
-  
+  font-size: 80px;
+  color: red;
+  width: 500px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
-*/
+
 .row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px;
+  width: 250px;
+  margin-left: 530px;
+  margin-right: 530px;
+  
 }
 
 .inputs {
@@ -25,19 +29,13 @@ div {
    font-size: 2rem;
    line-height: 2rem;
    font-weight: bold;
-   vertical-align: middle;
    box-sizing: border-box;
    color: red;
    user-select: none;
    border-color: blue;
    display: block;
-   width: 62px;
-}
-h1 {
-  font-family: Arial;
-  text-align: center;
-  font-size: 80px;
-  color: red;
+   width: 100%;
+   
 }
 
 #mensagemFim {
