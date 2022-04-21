@@ -8,9 +8,10 @@ h1 {
   justify-content: center;
   font-size: 80px;
   color: red;
-  width: 500px;
-  margin-left: 400px;
-  margin-right: 400px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .row {
@@ -18,9 +19,10 @@ h1 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px;
-  width: 250px;
-  margin-left: 530px;
-  margin-right: 530px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  
   
 }
 
