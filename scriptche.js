@@ -612,15 +612,50 @@ function checaLetras(l1,l2,l3,l4,l5, palavraSorteada) {
 }
 
 function acertouPalavra(palavraTemp) {
-  document.getElementById("mensagemFim").style.display = "inline";
-  document.getElementById("mensagemFim").innerText = "Barbaridade!  Granaste o catete e sabes onde moram as corujas! Acertaste a palavra "+palavraTemp+"!";
-  allReadOnly();
+ // document.getElementById("mensagemFim").style.display = "inline";
+ document.getElementById("titulo").innerText = "ACERTOU!";
+ mostraPalavra(palavraTemp); 
+ allReadOnly();
 }
 
 function errouPalavra(palavraTemp) {
-  document.getElementById("mensagemFim").style.display = "inline";
-  document.getElementById("mensagemFim").innerText = "Bah, me caiu os butiá do bolso! Tchê, a palavra era "+palavraTemp+"!";
-  allReadOnly();
+ // document.getElementById("mensagemFim").style.display = "inline";
+ document.getElementById("titulo").innerText = "ERROU!";
+ mostraPalavra(palavraTemp);  
+ allReadOnly();
+}
+
+function mostraPalavra(palavraTemp) {
+  document.getElementById('l11').value= "";  
+  document.getElementById('l12').value= ""; 
+  document.getElementById('l13').value= ""; 
+  document.getElementById('l14').value= ""; 
+  document.getElementById('l15').value= "";
+  document.getElementById('l21').value= "";  
+  document.getElementById('l22').value= ""; 
+  document.getElementById('l23').value= ""; 
+  document.getElementById('l24').value= ""; 
+  document.getElementById('l25').value= "";
+  document.getElementById('l31').value= palavraTemp[0];  
+  document.getElementById('l32').value= palavraTemp[1];  
+  document.getElementById('l33').value= palavraTemp[2];  
+  document.getElementById('l34').value= palavraTemp[3];  
+  document.getElementById('l35').value= palavraTemp[4];  
+  document.getElementById('l41').value= "";  
+  document.getElementById('l42').value= ""; 
+  document.getElementById('l43').value= ""; 
+  document.getElementById('l44').value= ""; 
+  document.getElementById('l45').value= "";
+  document.getElementById('l51').value= "";  
+  document.getElementById('l52').value= ""; 
+  document.getElementById('l53').value= ""; 
+  document.getElementById('l54').value= ""; 
+  document.getElementById('l55').value= "";
+  document.getElementById('l61').value= "";  
+  document.getElementById('l62').value= ""; 
+  document.getElementById('l63').value= ""; 
+  document.getElementById('l64').value= ""; 
+  document.getElementById('l65').value= "";
 }
 
 function allReadOnly() {
