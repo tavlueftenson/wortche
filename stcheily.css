@@ -47,6 +47,8 @@ h1 {
 #mensagemFim {
   position: absolute;
   background: green;
+  justify-content: center;
+  text-align: center;
   font-size: 40px;
   top: 200px;
   left: 300px;
