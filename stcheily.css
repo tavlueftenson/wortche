@@ -6,9 +6,9 @@ h1 {
   font-family: Arial;
 /*  text-align: center; */
   justify-content: center;
-  font-size: 80px;
+  font-size: 160px;
   color: red;
-  width: 450px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   
@@ -19,7 +19,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px;
-  width: 450px;
+  width: 900px;
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
   
@@ -30,13 +31,14 @@ h1 {
    font-family: Arial;
    justify-content: center;
    align-items: center;
-   font-size: 2rem;
+   text-align: center;
+   font-size: 6rem;
    line-height: 2rem;
    font-weight: bold;
    box-sizing: border-box;
    color: red;
    user-select: none;
-   border-color: blue;
+   border-color: green;
    display: block;
    width: 100%;
    
