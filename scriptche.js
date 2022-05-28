@@ -641,6 +641,11 @@ function mostraPalavra(palavraTemp) {
   document.getElementById('l33').value= palavraTemp[2];  
   document.getElementById('l34').value= palavraTemp[3];  
   document.getElementById('l35').value= palavraTemp[4];  
+  document.getElementById('l31').style.color = 'black';
+  document.getElementById('l32').style.color = 'black';
+  document.getElementById('l33').style.color = 'black';
+  document.getElementById('l34').style.color = 'black';
+  document.getElementById('l35').style.color = 'black';
   document.getElementById('l41').value= "";  
   document.getElementById('l42').value= ""; 
   document.getElementById('l43').value= ""; 
