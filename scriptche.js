@@ -788,4 +788,5 @@ var palavras = ["afude",
 "xucro",
 "zaino",
 "zarro",
+"zarro",
 "zunir"];
