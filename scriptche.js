@@ -102,8 +102,9 @@ window.addEventListener('load', (event) => {
                         default:
                           break;        
                       }
+                      document.getElementById('l21').focus(); 
                     }
-                    document.getElementById('l21').focus();                  
+                                     
                   } else {
 
                   }
@@ -188,8 +189,9 @@ window.addEventListener('load', (event) => {
                       default:
                         break;        
                     }
+                    document.getElementById('l31').focus(); 
                   }
-                  document.getElementById('l31').focus();                  
+                                   
                 } else {
 
                 }
@@ -274,8 +276,9 @@ window.addEventListener('load', (event) => {
                         default:
                           break;        
                       }
+                      document.getElementById('l41').focus();  
                     }
-                    document.getElementById('l41').focus();                  
+                                    
                   } else {
 
                   }
@@ -360,8 +363,9 @@ window.addEventListener('load', (event) => {
                         default:
                           break;        
                       }
+                      document.getElementById('l51').focus();   
                     }
-                    document.getElementById('l51').focus();                  
+                                   
                   } else {
 
                   }
@@ -446,8 +450,9 @@ window.addEventListener('load', (event) => {
                         default:
                           break;        
                       }
+                      document.getElementById('l61').focus(); 
                     }
-                    document.getElementById('l61').focus();                  
+                                     
                   } else {
 
                   }
