@@ -18,7 +18,8 @@ h1 {
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5px;
+  row-gap: 5px;
+  column-gap: 5px;
   width: 450px;
   height: 75px;
   margin-left: auto;
