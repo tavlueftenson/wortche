@@ -1,60 +1,95 @@
-* {
-  background-color: yellow;
+body {
+  background-color: #222; /* Fundo cinza escuro */
+  font-family: "Georgia", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #eee; /* Cor do texto */
 }
 
 h1 {
-  font-family: Arial;
-/*  text-align: center; */
-  justify-content: center;
-  font-size: 80px;
-  color: red;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-  
+  color: #ffc107; /* Amarelo forte para o título */
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000; /* Sombra para destacar o título */
 }
 
 .row {
-  justify-content: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  row-gap: 5px;
-  column-gap: 5px;
-  width: 450px;
-  height: 75px;
-  margin-left: auto;
-  margin-right: auto;
-  
-  
+  gap: 10px;
+  margin-bottom: 1rem;
 }
 
 .inputs {
-   font-family: Arial;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   font-size: 5rem;
-   line-height: 2rem;
-   font-weight: bold;
-   box-sizing: border-box;
-   color: red;
-   user-select: none;
-   border-color: green;
-   display: block;
-   width: 100%;
-   height: 75px;
-   
+  font-family: inherit;
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid #8b4513; /* Marrom escuro para as bordas */
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  user-select: none;
+  text-transform: uppercase;
+  color: #eee; /* Cor do texto */
+  font-weight: normal; /* Normal para letras iniciais */
+  background-color: #404040; /* Cinza escuro para letras iniciais */
+}
+
+.inputs:focus {
+  outline: none;
+  border-color: #007bff; /* Azul para o foco das letras */
+}
+
+.inputs.correct {
+  /* Letra correta: verde escuro, negrito, borda grossa, sombra leve */
+  background-color: #008000; 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #008000; /* Borda grossa */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra leve */
+  font-size: 2.2rem; /* Letra um pouco maior */
+}
+
+.inputs.present {
+  /* Letra existente: amarelo forte, itálico, borda ondulada, sombra leve */
+  background-color: #FFC107; 
+  color: white;
+  font-style: italic; /* Itálico para destacar */
+  border: 2px dashed #FFC107; /* Borda tracejada */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra leve */
+  font-size: 2.2rem; /* Letra um pouco maior */
+}
+
+.inputs.absent {
+  /* Letra não existente: cinza escuro, normal, borda fina */
+  background-color: #404040; /* Cinza escuro */
+  color: white;
+  border: 1px solid #8b4513; /* Borda fina */
+  font-size: 1.8rem; /* Letra um pouco menor */
 }
 
 #mensagemFim {
-  position: absolute;
-  background: green;
-  justify-content: center;
+  background-color: #008000; /* Verde escuro para fundo da mensagem */
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
   text-align: center;
-  font-size: 40px;
-  top: 200px;
-  left: 300px;
-  right: 300px;
-  opacity: 95%;
-  border: 3px solid blue;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .inputs {
+    font-size: 1.5rem;
+  }
 }
